@@ -3,6 +3,8 @@ This repository is the script for NeoVim (nvim) configuration (init.lua) to retu
 <h3>INSTALLATION:</h3>
 1) Contents fom the init.lua file in this repo should be copied to the end of your init.lua file.<br />
 2) switch2us.sh should be placed inside of your local nvim config folder (possibly, inside of: "~/.config/nvim/" dir) and you should give it execution permissions (chmod -c +x "~/.config/nvim/switch2us.sh")
+<h3>REQUIREMENTS:</h3>
+If "setxkbmap" is missing, an "x11-xkb-utils" package should be installed.
 <h3>WARNING:</h3>
 This was tested only on "Awesome" (X.Org) and "KDE 6" (WayLand) DEs on Linux. It wasn't tested anywhere else, including Windows or MacOS.
 <h3>TODOs:</h3>
