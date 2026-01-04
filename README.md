@@ -2,7 +2,7 @@
 This repository is the script for NeoVim (nvim) configuration (init.lua) to return keyboard layout from any local character page to English/US on return from [Insert] mode.
 <h3>INSTALLATION:</h3>
 1) Contents fom the init.lua file in this repo should be copied to the end of your init.lua file.<br />
-Replace the placeholder "&lt;path_to_home_dir&gt;" with the actual full path to that script.<br />
+Replace the placeholder "&lt;path_to_config_dir&gt;" with the actual full path to that script.<br />
 2) switch2us.sh should be placed inside of your local nvim config folder (possibly, inside of: "~/.config/nvim/" dir) and you should give it execution permissions (chmod -c +x "~/.config/nvim/switch2us.sh")
 <h3>REQUIREMENTS:</h3>
 If "setxkbmap" is missing, an "x11-xkb-utils" package should be installed.
